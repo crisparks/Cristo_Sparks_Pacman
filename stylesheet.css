@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+    color: aqua;
+    margin: 0px;
+}
+
+/*button*/
+.button {
+    display: inline-block;
+    width: 120px;
+    margin-top: 15px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: turquoise
+}
+
+.button:active {
+    background-color: teal;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.container{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+/*world CSS*/
+div.row div{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.wall{
+    background-color: lightseagreen;
+}
+.blank{
+    background-color: black;
+}
+.coin{
+    background: url(coin1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cherry{
+    background-color: black;
+    background: url(cherry.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#pacman{
+    height: 40px;
+    width: 40px;
+    background: url(pacman.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+#misses{
+    height: 40px;
+    width: 40px;
+    background: url(bluey.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+#blinky {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('blinky.png');
+    background-size: contain;
+    position: absolute;
+
+}
+#pinky {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('pinky.png');
+    background-size: contain;
+    position: absolute;
+
+}
